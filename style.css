@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.talk {
+    font-size: 10rem;
+    border: none;
+    background: transparent;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.talk:focus {
+    outline: 0;
+    color: green;
+}
+
+.userSpeech {
+    margin: 10px;
+}
